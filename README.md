@@ -1,3 +1,5 @@
+<h3 align="center">A Modern Next.js Portfolio</h3>
+
 <div align="center">
   <br />
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
@@ -11,12 +13,11 @@
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
-
-  <h3 align="center">A Modern Next.js Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
     </div>
+    </div>
+</div>
+<h3 align="center">A Modern Next.js Portfolio</h3>
+</div>
 </div>
 <h3 align="center">A Modern Next.js Portfolio</h3>
 
@@ -178,7 +179,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    link: "/ui.earth.com",
   },
   {
     id: 2,
@@ -186,7 +187,7 @@ export const projects = [
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "/ui.yoom.com",
   },
   {
     id: 3,
@@ -194,7 +195,7 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "/ui.aiimg.com",
   },
   {
     id: 4,
@@ -202,40 +203,34 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "/ui.apple.com",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Ameer was a fantastic experience. His technical skills, especially with Next.js and React.js, combined with his problem-solving abilities, made our collaboration seamless and highly productive. Highly recommend.",
+    name: "Kumar",
+    title: "Lead Product Manager",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ameer’s dedication and technical prowess are impressive. His contributions to our financial applications and dynamic interfaces showcased his depth of knowledge and commitment to excellence. A true professional in every sense!",
+    name: "B. Vinay",
+    title: "Software Engineer - Team Member",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ameer consistently delivers high-quality results with a keen eye for detail. His expertise in modernizing legacy systems and working with complex tech stacks like MERN and Python is unmatched. A valuable asset to any team!",
+    name: "Hemant Kumar",
+    title: "Frontend Developer - Team Member",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Ameer was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ameer's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ameer is the ideal partner.",
+    name: "Ahmed Ali",
+    title: "Delivery Head at TEK NINJAS",
   },
 ];
 
