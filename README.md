@@ -3,7 +3,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+      <img src="./public/minimalistic dev porfolio.png" alt="Project Banner">
     </a>
   <br />
 
@@ -75,7 +75,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/portfolio.git
+git clone https://github.com/Hamz1Ameer/portfolio.git
 cd portfolio
 ```
 
