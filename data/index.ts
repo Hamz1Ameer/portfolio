@@ -117,24 +117,28 @@ export const testimonials = [
       "Working with Ameer was a fantastic experience. His technical skills, especially with Next.js and React.js, combined with his problem-solving abilities, made our collaboration seamless and highly productive. Highly recommend.",
     name: "Kumar",
     title: "Lead Product Manager",
+    image: "profile.svg",
   },
   {
     quote:
       "Ameer’s dedication and technical skills are impressive. His contributions to our applications and dynamic interfaces showcased his depth of knowledge and commitment to excellence. A true professional!",
     name: "B. Vinay",
     title: "Software Engineer - Team Member",
+    image: "profile.svg",
   },
   {
     quote:
       "Ameer consistently delivers high-quality results with a keen eye for detail. His expertise in modernizing legacy systems and working with complex tech stacks like MERN and Python is unmatched. A valuable asset to any team!",
     name: "Hemant Kumar",
     title: "Frontend Developer - Team Member",
+    image: "profile.svg",
   },
   {
     quote:
       "Collaborating with Ameer was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ameer's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ameer is the ideal partner.",
     name: "Ahmed Ali",
     title: "Delivery Head at TEK NINJAS",
+    image: "ahmed_ali.jpeg",
   },
 ];
 
