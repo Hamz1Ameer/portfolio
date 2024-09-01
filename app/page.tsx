@@ -7,7 +7,6 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
 import RecentProjects from "@/components/RecentProjects";
 import Clients from "@/components/Clients";
-import Experience from "@/components/Experience";
 import Experiences from "@/components/Experiences";
 import { Separator } from "@/components/ui/separator";
 import Contact from "@/components/Contact";
