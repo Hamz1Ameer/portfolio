@@ -1,5 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
+  { name: "Experiences", link: "#experiences" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -72,7 +73,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "My portfolio",
+    title: "My Portfolio",
     des: "A comprehensive showcase of my skills, projects, and experiences as a Full Stack Developer.",
     img: "p3.svg",
     iconLists: [
@@ -88,7 +89,7 @@ export const projects = [
   {
     id: 2,
     title: "Fitness Tracker Web App",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "Track your fitness goals with this web app, featuring personalized workout plans and progress tracking.",
     img: "p1.svg",
     iconLists: ["re.svg", "tail.svg", "ts.svg", "three.svg", "fm.svg"],
     link: "https://github.com/Hamz1Ameer/React-practice-apps",
@@ -96,7 +97,7 @@ export const projects = [
   {
     id: 3,
     title: "Todo List App",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "Manage your tasks efficiently with this Todo List App, featuring a clean UI and interactive functionalities.",
     img: "p2.svg",
     iconLists: ["next.svg", "tail.svg", "ts.svg", "three.svg", "gsap.svg"],
     link: "https://github.com/Hamz1Ameer/todo-list-app",
@@ -104,7 +105,7 @@ export const projects = [
   {
     id: 4,
     title: "E-commerce Storefront",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A modern e-commerce platform designed for seamless shopping experiences with a user-friendly interface.",
     img: "p3.svg",
     iconLists: ["next.svg", "tail.svg", "ts.svg", "stream.svg", "c.svg"],
     link: "https://github.com/Hamz1Ameer/React-practice-apps",
@@ -210,13 +211,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "git.svg",
+    href: "https://github.com/Hamz1Ameer",
   },
   {
     id: 2,
     img: "twit.svg",
+    href: "https://x.com/MohammedHa35069",
   },
   {
     id: 3,
     img: "link.svg",
+    href: "https://www.linkedin.com/in/mahamzaa/",
   },
 ];

@@ -1,10 +1,21 @@
+import { useState } from "react";
+import { IoCopyOutline } from "react-icons/io5";
 import { FaLocationArrow } from "react-icons/fa6";
+import { FaDownload } from "react-icons/fa";
 
 import MagicButton from "@/components/MagicButton";
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 
 const Hero = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopy = () => {
+    const text = "ameerhamza7702@gmail.com";
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+  };
+
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -37,21 +48,36 @@ const Hero = () => {
             Hi! I&apos;m <span className="text-blue-100">Ameer</span>, a
             Front-end Developer based in Hyderabad, India.
           </p>
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
-          </p>
           <TextGenerateEffect
             words="Transforming Concepts into Seamless UI Experiences."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-
-          <a href="#about">
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+            Dynamic Web Magic with Next.js
+          </p>
+          <div className="flex gap-5">
+            <a href="#about">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
+              title={copied ? "Email is Copied!" : "Hire Me?"}
+              icon={<IoCopyOutline />}
+              position="left"
+              handleClick={handleCopy}
+              otherClasses="!bg-[#161A31]"
             />
-          </a>
+            <a href="https://drive.google.com/file/d/1V-CWL16siIkZEckZ_ooU2zb001OjmaD1/view?usp=sharing">
+              <MagicButton
+                title="Download Resume"
+                icon={<FaDownload />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>

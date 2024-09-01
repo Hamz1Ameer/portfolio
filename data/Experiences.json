@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "INNOVAPATH INC., Hyderabad",
+    "date": "June 2022 – Present",
+    "description": "Developed and maintained dynamic, responsive Single Page Applications (SPA) using ReactJS and NextJS with TypeScript. Implemented Server-Side Rendering (SSR) with Next.js for optimized SEO and initial load times. Integrated with Redux for state management and utilized Docker and Kubernetes for containerization and deployment on Google Kubernetes Engine (GKE).",
+    "skills": [
+      "React",
+      "NextJS",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "Bootstrap",
+      "Docker",
+      "Kubernetes",
+      "GKE",
+      "Agile Development",
+      "JIRA",
+      "Jest",
+      "Cypress",
+      "FastAPI"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "AWS Academy Cloud Architecting Intern",
+    "company": "AWS Academy",
+    "date": "January 2022 - May 2022",
+    "description": "Implemented AWS core services like S3, EC2, and RDS to support infrastructure, enabling seamless scalability, robust data backup, and effective access management. Managed Amazon EC2 instances to optimize resource allocation and support seamless deployment of web applications.",
+    "skills": [
+      "AWS S3",
+      "EC2",
+      "RDS",
+      "IAM",
+      "Cloud Infrastructure",
+      "Scalability",
+      "Access Management",
+      "Amazon EC2"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Associate Software Engineer",
+    "company": "Y.R. Systems, Hyderabad",
+    "date": "January 2021 - September 2021",
+    "description": "Implemented responsive and cross-browser compatible frontend code using HTML, CSS, and JavaScript. Collaborated with team members using Git for version control and employed testing methodologies to ensure the functionality and quality of the website.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "Cross-Browser Compatibility",
+      "Frontend Development",
+      "Responsive Design",
+      "Testing and Debugging"
+    ]
+  }
+]
