@@ -211,7 +211,7 @@ const Contact = () => {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
       <h2 className="font-bold text-white heading text-center">
-        Let&apos;s Connect
+        Let&apos;s <span className="text-purple"> Connect </span>
       </h2>
       <section
         id="contact"
@@ -230,7 +230,7 @@ const Contact = () => {
 
         <div className="z-10 flex flex-col items-start">
           <p className="text-[#ADB7BE] mb-4 max-w-md">
-            I'm currently looking for new opportunities. Whether you have a
+            I&apos;m currently looking for new opportunities. Whether you have a
             question or just want to say hi, my inbox is always open, and I'll
             try my best to get back to you!
           </p>

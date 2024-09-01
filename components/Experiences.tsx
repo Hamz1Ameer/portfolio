@@ -8,8 +8,8 @@ export default function Experiences() {
       id="experiences"
       className="flex flex-col items-start justify-start gap-4 sm:py-32 sm:mx-24 md:mx-32 lg:mx-64 xl:mx-96 py-16"
     >
-      <h2 className="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-4xl text-center w-full">
-        h2 Where I've Worked
+      <h2 className="scroll-m-20 text-3xl font-extrabold mb-5 tracking-tight lg:text-4xl text-center w-full">
+        My <span className="text-purple"> Professional Experience </span>
       </h2>
       <div className="flex flex-col gap-4 md:hidden">
         {experiences.map((experience) => (
