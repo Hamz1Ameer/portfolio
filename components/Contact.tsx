@@ -215,14 +215,16 @@ const Contact = () => {
       </h2>
       <section
         id="contact"
-        className="relative grid md:grid-cols-2 my-10 py-24 gap-4"
+        className="relative grid md:grid-cols-2 my-10 sm:py-16 gap-4"
       >
         {/* background grid */}
         <div className="w-full absolute left-0 -bottom-72 min-h-96">
-          <img
+          <Image
             src="/footer-grid.svg"
             alt="grid"
-            className="w-full h-full opacity-50"
+            layout="fill"
+            objectFit="cover"
+            className="opacity-50"
           />
         </div>
 
@@ -231,8 +233,8 @@ const Contact = () => {
         <div className="z-10 flex flex-col items-start">
           <p className="text-[#ADB7BE] mb-4 max-w-md">
             I&apos;m currently looking for new opportunities. Whether you have a
-            question or just want to say hi, my inbox is always open, and I&apos;ll
-            try my best to get back to you!
+            question or just want to say hi, my inbox is always open, and
+            I&apos;ll try my best to get back to you!
           </p>
           {/* <div className="socials flex gap-4 mb-8">
             <Link
@@ -332,12 +334,12 @@ const Contact = () => {
 
         <div className="flex items-center gap-4 mt-6 md:mt-0">
           {socialMedia.map((info) => (
-            <div
+            <div  
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
               <a href={info.href}>
-                <img src={info.img} alt="icons" width={20} height={20} />
+                <Image src={info.img} alt="icons" width={20} height={20} />
               </a>
             </div>
           ))}
