@@ -52,10 +52,10 @@ const Hero = () => {
             words="Translating ideas into code and bringing designs to Life."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <p className="uppercase tracking-widest text-xs text-center my-10 text-blue-100 max-w-80">
             Dynamic Web Magic with Next.js
           </p>
-          <div className="flex gap-5">
+          {/* <div className="flex gap-5">
             <a href="#about">
               <MagicButton
                 title="Show my work"
@@ -71,6 +71,34 @@ const Hero = () => {
               otherClasses="!bg-[#161A31]"
             />
             <a href="https://drive.google.com/file/d/1V-CWL16siIkZEckZ_ooU2zb001OjmaD1/view?usp=sharing">
+              <MagicButton
+                title="Download Resume"
+                icon={<FaDownload />}
+                position="right"
+              />
+            </a>
+          </div> */}
+          <div className="flex flex-col md:flex-row gap-5 items-center">
+            <a href="#about" className="w-full md:w-auto">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <div className="w-full md:w-full">
+              <MagicButton
+                title={copied ? "Email is Copied!" : "Hire Me?"}
+                icon={<IoCopyOutline />}
+                position="left"
+                handleClick={handleCopy}
+                otherClasses="!bg-[#161A31] w-full md:w-full"
+              />
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1V-CWL16siIkZEckZ_ooU2zb001OjmaD1/view?usp=sharing"
+              className="w-full md:w-auto"
+            >
               <MagicButton
                 title="Download Resume"
                 icon={<FaDownload />}
