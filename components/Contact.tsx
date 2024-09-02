@@ -218,9 +218,9 @@ const Contact = () => {
         className="relative grid md:grid-cols-2 my-10 sm:py-16 gap-4"
       >
         {/* background grid */}
-        <div className="w-full absolute left-0 -bottom-72 min-h-96">
+        <div className="w-full absolute sm:left-0 sm:bottom-10 sm:min-h-96 ">
           <Image
-            src="/footer-grid.svg"
+            src="footer-grid.svg"
             alt="grid"
             layout="fill"
             objectFit="cover"
@@ -334,7 +334,7 @@ const Contact = () => {
 
         <div className="flex items-center gap-4 mt-6 md:mt-0">
           {socialMedia.map((info) => (
-            <div  
+            <div
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
