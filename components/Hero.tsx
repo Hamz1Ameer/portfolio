@@ -49,7 +49,7 @@ const Hero = () => {
             Front-end Developer based in Hyderabad, India.
           </p>
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless UI Experiences."
+            words="Translating ideas into code and bringing designs to Life."
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">

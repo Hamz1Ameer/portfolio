@@ -231,7 +231,7 @@ const Contact = () => {
         <div className="z-10 flex flex-col items-start">
           <p className="text-[#ADB7BE] mb-4 max-w-md">
             I&apos;m currently looking for new opportunities. Whether you have a
-            question or just want to say hi, my inbox is always open, and I'll
+            question or just want to say hi, my inbox is always open, and I&apos;ll
             try my best to get back to you!
           </p>
           {/* <div className="socials flex gap-4 mb-8">
